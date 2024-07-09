@@ -1,7 +1,18 @@
-const add = (number1, number2) => number1 + number2;
-const susubtract = (number1, number2) => number1 - number2;
-const multiply = (number1, number2) => number1 * number2;
-const divide = (number1, number2) => number1 / number2;
+const add = (number1, number2) => {
+    return number1 + number2
+};
+
+const susubtract = (number1, number2) => {
+    return number1 - number2
+};
+
+const multiply = (number1, number2) => {
+    return number1 * number2
+};
+
+const divide = (number1, number2) => {
+    return number1 / number2
+};
 
 document.getElementById('add').addEventListener('click', function() {
     const number1 = parseFloat(document.getElementById('number1').value) || 0;
